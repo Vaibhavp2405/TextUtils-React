@@ -42,7 +42,7 @@ export default function TextForm(props) {
         </h1>
     <div className="mb-3">
     
-    <textarea className="form-control" id="myBox" rows="6" onChange={handleOnChange} value={text} style={{backgroundColor: props.mode === 'dark' ? 'grey' : 'white' , color : props.mode === 'dark' ? 'white' : 'black'}}> </textarea>
+    <textarea className="form-control" id="myBox" rows="6" placeholder='Enter Your Text' onChange={handleOnChange} value={text} style={{backgroundColor: props.mode === 'dark' ? 'grey' : 'white' , color : props.mode === 'dark' ? 'white' : 'black'}}> </textarea>
     </div>
     <button className="btn btn-primary mx-1" onClick={handleUpClick}b>Convert to Uppercase</button>
     <button className="btn btn-primary mx-1" onClick={handleLoClick}b>Convert to Lowercase</button>
