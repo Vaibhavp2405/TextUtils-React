@@ -56,7 +56,7 @@ return (
   <div className="container my-3">
     <Routes>
   <Route
-    path="/"
+    path=""
     element={
    <TextForm showAlert={showAlert} heading="Enter Your Text" mode={mode}/>
     }
